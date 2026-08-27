@@ -66,14 +66,14 @@ M.keys = {
   { key = 'n', mods = 'LEADER', action = action.ActivateTabRelative(1) },
   -- Pane keybindings
   {
-    key = '-',
+    key = '"',
     mods = 'LEADER',
     action = action.SplitVertical { domain = 'CurrentPaneDomain' },
   },
   -- SHIFT is for when caps lock is on
   {
-    key = '|',
-    mods = 'LEADER|SHIFT',
+    key = '%',
+    mods = 'LEADER',
     action = action.SplitHorizontal { domain = 'CurrentPaneDomain' },
   },
   { key = 'h', mods = 'LEADER', action = action.ActivatePaneDirection 'Left' },
